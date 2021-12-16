@@ -11,7 +11,7 @@ const About = () => {
     <div>
       <h1>About</h1>
       <Welcome name="About" img={aboutImg} />
-      <Buton name="about" click={handleClick} />
+      <Buton name="about" click={handleClick} color="white" bgColor="red" />
     </div>
   );
 };
