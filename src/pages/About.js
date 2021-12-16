@@ -1,11 +1,11 @@
 import React from "react";
 import Welcome from "../components/Welcome";
-import headerImg from "../img/headers.jpeg";
+import aboutImg from "../img/aboutt.jpeg";
 const About = () => {
   return (
     <div>
       <h1>About</h1>
-      <Welcome name="About" img={headerImg} />
+      <Welcome name="About" img={aboutImg} />
     </div>
   );
 };
