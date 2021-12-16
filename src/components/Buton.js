@@ -1,10 +1,17 @@
 import React from "react";
 
+const btnStyle = {
+  color: "white",
+  background: "red",
+};
+
 const Buton = (props) => {
-  const { click } = props;
+  const { click, name } = props;
   return (
     <div>
-      <button onClick={click}>Tıkla</button>
+      <button style={btnStyle} onClick={click}>
+        {name}
+      </button>
     </div>
   );
 };

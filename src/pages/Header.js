@@ -12,7 +12,7 @@ const Header = () => {
     <div>
       <h1>Header</h1>
       <Welcome name="Header" img={headerImg} />
-      <Buton click={handleClick} />
+      <Buton name="header" click={handleClick} />
     </div>
   );
 };
