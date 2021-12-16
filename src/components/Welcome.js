@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Welcome = () => {
- return (
-  <div>
-   
-  </div>
- )
-}
+const Welcome = (props) => {
+  const { name } = props; // Destructruing
+  return (
+    <div>
+      <h2>Welcome to {name} pages</h2>
+      <img src="" alt="" />
+    </div>
+  );
+};
 
-export default Welcome
+export default Welcome;
